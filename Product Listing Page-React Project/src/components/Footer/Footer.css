@@ -1,0 +1,138 @@
+/* Base Styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-section h4,
+  .contact-section h4 {
+    font-size: 1.2em;
+  }
+  
+  .subscribe-section p,
+  .contact-section p {
+    margin: 10px 0;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .subscribe-form input {
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    flex: 1;
+  }
+  
+  .subscribe-form button {
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+    
+  .social-icons,
+  .payment-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .subscribe-form {
+      flex-direction: column;
+    }
+  
+    .subscribe-form input,
+    .subscribe-form button {
+      width: 90%;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-links {
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .social-payments {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .subscribe-section h4,
+    .contact-section h4 {
+      font-size: 1em;
+    }
+  
+    .social-icons,
+    .payment-icons {
+      font-size: 1.2em;
+    }
+  
+    .copyright {
+      font-size: 0.8em;
+    }
+  }
+  

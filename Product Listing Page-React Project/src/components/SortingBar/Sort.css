@@ -1,0 +1,109 @@
+/* Sort.css */
+
+.sort-wrapper {
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.75rem;
+}
+
+.count-display {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.sort-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.sort-actions button {
+  padding: 0.5rem 1rem;
+  background-color: #0052cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sort-actions button:hover {
+  background-color: #003f99;
+}
+
+.sort-actions select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.main-content {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Sidebar Filters */
+.filters-panel {
+  width: 250px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.filter-block {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-block label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.filter-block input[type="checkbox"] {
+  margin-bottom: 0.5rem;
+}
+
+.filter-block select {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Product Display */
+.product-display {
+  flex: 1;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .filters-panel {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .sort-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}

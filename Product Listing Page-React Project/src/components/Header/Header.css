@@ -1,0 +1,43 @@
+/* Header.css */
+
+.products-header {
+  text-align: center;
+  padding: 50px 20px 30px;
+  background-color: #f9f9f9;
+}
+
+.products-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.products-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+  .products-title {
+    font-size: 36px;
+  }
+
+  .products-description {
+    font-size: 16px;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .products-title {
+    font-size: 28px;
+  }
+
+  .products-description {
+    font-size: 14px;
+  }
+}
