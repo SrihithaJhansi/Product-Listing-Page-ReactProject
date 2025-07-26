@@ -22,23 +22,7 @@ This project fetches data from the [Fake Store API](https://fakestoreapi.com/pro
 
 
 
-## 📁 Folder Structure
 
-Product-Listing-Page-ReactProject/
-├── public/
-├── src/
-│ ├── components/
-│ │ └── ProductCard.js
-│ ├── pages/
-│ │ └── ProductListPage.js
-│ ├── App.js
-│ └── index.js
-├── README.md
-└── package.json
-
-bash
-Copy
-Edit
 
 ## 🧑‍💻 Getting Started
 
